@@ -19,6 +19,10 @@ p {
   color: #fff;
   padding: 6px 20px;
 }
+.button-primary a {
+  text-decoration: none;
+  color: #fff !important;
+}
 .button-secondary {
   background-color: #fff;
   border: none;
@@ -125,4 +129,22 @@ p {
 .home-team .card-box .image-holder {
   max-width: 170px;
   margin: 0 auto;
+}
+
+/* Support page style */
+
+.support-hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/images/support-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0px;
+}
+.support .box {
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.support .box .content {
+  padding: 30px;
 }
