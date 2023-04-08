@@ -30,6 +30,10 @@ p {
   color: #000;
   padding: 6px 20px;
 }
+.button-secondary a {
+  text-decoration: none;
+  color: #000 !important;
+}
 .section-pad {
   padding: 50px 0px;
 }
@@ -147,4 +151,15 @@ p {
 }
 .support .box .content {
   padding: 30px;
+}
+
+/* get support styling */
+.get-support .info-box {
+  max-width: 900px;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.get-support .info-box .image-holder {
+  max-width: 400px;
 }
